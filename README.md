@@ -2,4 +2,6 @@
 
 The repository for React-Bootstrap's [CodeSandbox](https://codesandbox.io/) examples.
 
-This project was bootstrapped with Create-React-App, the docs for this are located [here](CRA-README.md)
+## Examples
+
+- [Basic Example](basic/README.md) - Just a simple create-react-app setup with React-Bootstrap components.
