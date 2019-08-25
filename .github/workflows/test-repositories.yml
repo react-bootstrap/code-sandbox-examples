@@ -11,12 +11,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: Go Into Basic Folder
-        run: cd basic
       - name: Install Dependencies
-        run: yarn install
+        run: yarn install --cwd ${GITHUB_ACTION}
       - name: Run Tests
-        run: yarn test
+        run: yarn test --cwd ${GITHUB_ACTION}
   basic-cdn:
     name: Test Basic CDN Example
     runs-on: ubuntu-latest
@@ -27,12 +25,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: Go Into Basic CDN Folder
-        run: cd basic-cdn
       - name: Install Dependencies
-        run: yarn install
+        run: yarn install --cwd ${GITHUB_ACTION}
       - name: Run Tests
-        run: yarn test
+        run: yarn test --cwd ${GITHUB_ACTION}
   basic-ts:
     name: Test Basic TS Example
     runs-on: ubuntu-latest
@@ -43,9 +39,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: Go Into Basic TS Folder
-        run: cd basic-ts
       - name: Install Dependencies
-        run: yarn install
+        run: yarn install --cwd ${GITHUB_ACTION}
       - name: Run Tests
-        run: yarn test
+        run: yarn test --cwd ${GITHUB_ACTION}
