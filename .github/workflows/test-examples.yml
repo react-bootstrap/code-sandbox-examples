@@ -1,8 +1,7 @@
-name: Test Example Repositories
+name: Test Examples
 on: [push]
 jobs:
-  test:
-    name: Test Example Repository
+  test-example:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -18,5 +17,7 @@ jobs:
         working-directory: ${{ matrix.dir }}
         run: yarn install
       - name: Run Tests
+        env:
+          CI: true
         working-directory: ${{ matrix.dir }}
-        run: CI=true yarn test
+        run: yarn test
