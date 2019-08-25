@@ -1,0 +1,48 @@
+name: Test Example Repositories
+on: [push]
+jobs:
+  basic:
+    name: Test Basic Example
+    steps:
+      - name: Checking out Repository
+        uses: actions/checkout@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Go Into Basic Folder
+        run: cd basic
+      - name: Install Dependencies
+        run: yarn install
+      - name: Run Tests
+        run: yarn test
+  basic-cdn:
+    name: Test Basic CDN Example
+    steps:
+      - name: Checking out Repository
+        uses: actions/checkout@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Go Into Basic CDN Folder
+        run: cd basic-cdn
+      - name: Install Dependencies
+        run: yarn install
+      - name: Run Tests
+        run: yarn test
+  basic-ts:
+    name: Test Basic TS Example
+    steps:
+      - name: Checking out Repository
+        uses: actions/checkout@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Go Into Basic TS Folder
+        run: cd basic-ts
+      - name: Install Dependencies
+        run: yarn install
+      - name: Run Tests
+        run: yarn test
