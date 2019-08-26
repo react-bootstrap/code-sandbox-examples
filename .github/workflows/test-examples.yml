@@ -1,0 +1,22 @@
+name: Test Examples
+on: [push]
+jobs:
+  test-example:
+    name: Test Example
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dir: [basic, basic-cdn, basic-ts]
+    steps:
+      - name: Checking out Repository
+        uses: actions/checkout@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+      - name: Install Dependencies
+        working-directory: ${{ matrix.dir }}
+        run: yarn install
+      - name: Run Tests
+        env:
+          CI: true
+        working-directory: ${{ matrix.dir }}
+        run: yarn test
