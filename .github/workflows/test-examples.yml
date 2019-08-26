@@ -2,6 +2,7 @@ name: Test Examples
 on: [push]
 jobs:
   test-example:
+    name: Test Example
     runs-on: ubuntu-latest
     strategy:
       matrix:
