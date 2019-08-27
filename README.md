@@ -1,5 +1,7 @@
 # Code Sandbox Examples
 
+[![Build Status](https://github.com/react-bootstrap/code-sandbox-examples/workflows/Test%20Examples/badge.svg)](https://github.com/react-bootstrap/code-sandbox-examples/actions)
+
 The repository for React-Bootstrap's [CodeSandbox](https://codesandbox.io/) examples.
 
 ## Examples
