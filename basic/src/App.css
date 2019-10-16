@@ -1,7 +1,11 @@
 .header {
   text-align: center;
+  padding: 100px, 100px, 100px, 100px;
 }
 
 .toast {
   margin: 0 auto;
+}
+.body {
+  mmargin: 0;
 }
