@@ -1,5 +1,5 @@
 name: Test Examples
-on: [push]
+on: [push, pull_request]
 jobs:
   test-example:
     name: Test Example
