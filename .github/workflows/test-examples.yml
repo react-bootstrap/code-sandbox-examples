@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        dir: [basic, basic-cdn, basic-ts]
+        dir: [basic, basic-cdn, basic-ts, basic-sass-custom-theming]
     steps:
       - name: Checking out Repository
         uses: actions/checkout@v1
