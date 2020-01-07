@@ -10,7 +10,7 @@ const App: React.FC = () => {
   return (
     <Container className="p-3">
       <Jumbotron>
-        <h1 className="header">Welcome To React-Bootstrap Typescript Example</h1>
+        <h1 className="header">Welcome To React-Bootstrap TypeScript Example</h1>
       </Jumbotron>
       <h2>Buttons</h2>
       <ButtonsShowcase/>
