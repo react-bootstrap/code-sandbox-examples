@@ -1,17 +1,13 @@
-import React from "react";
-import {
-  MemoryRouter,
-  Switch,
-  Route,
-} from "react-router-dom";
+import React from 'react';
+import { MemoryRouter, Switch, Route } from 'react-router-dom';
 
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
-import ButtonToolbar from "react-bootstrap/ButtonToolbar"
-import { LinkContainer } from 'react-router-bootstrap'
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
+import { LinkContainer } from 'react-router-bootstrap';
 
-import "./App.css";
+import './App.css';
 
 const Home = () => <span>Home</span>;
 
@@ -24,8 +20,9 @@ const App = () => (
     <Container className="p-3">
       <Jumbotron>
         <h1 className="header">Welcome To React-Bootstrap</h1>
-        <h2>Current Page is{' '}
-        <Switch>
+        <h2>
+          Current Page is{' '}
+          <Switch>
             <Route path="/about">
               <About />
             </Route>
@@ -37,7 +34,8 @@ const App = () => (
             </Route>
           </Switch>
         </h2>
-        <h2>Navigate to {' '}
+        <h2>
+          Navigate to{' '}
           <ButtonToolbar className="custom-btn-toolbar">
             <LinkContainer to="/">
               <Button>Home</Button>

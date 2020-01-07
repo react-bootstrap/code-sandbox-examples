@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Toast from "react-bootstrap/Toast";
-import Container from 'react-bootstrap/Container'
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Toast from 'react-bootstrap/Toast';
+import Container from 'react-bootstrap/Container';
 
-import "./App.css";
+import './App.css';
 
 const ExampleToast = ({ children }) => {
   const [show, toggleShow] = useState(true);
@@ -25,9 +25,9 @@ const App = () => (
       <h1 className="header">Welcome To React-Bootstrap</h1>
       <ExampleToast className="toast">
         We now have Toasts
-      <span role="img" aria-label="tada">
+        <span role="img" aria-label="tada">
           🎉
-      </span>
+        </span>
       </ExampleToast>
     </Jumbotron>
   </Container>
