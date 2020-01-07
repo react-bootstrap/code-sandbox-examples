@@ -8,7 +8,7 @@
     "prettier": "^1.19.1"
   },
   "scripts": {
-    "lint": "prettier */**/*.{js,tsx,css,md}",
+    "lint": "prettier --check */**/*.{js,tsx,css,md}",
     "format": "prettier --write */**/*.{js,tsx,css,md}"
   },
   "prettier": {
