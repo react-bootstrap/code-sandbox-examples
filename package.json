@@ -1,0 +1,17 @@
+{
+  "name": "code-sandbox-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/react-bootstrap/code-sandbox-examples",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "lint": "prettier --check **/*.{js,tsx,css,md}",
+    "format": "prettier --write **/*.{js,tsx,css,md}"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}

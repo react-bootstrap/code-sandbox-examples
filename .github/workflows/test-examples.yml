@@ -6,12 +6,16 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        dir: [basic, basic-cdn, basic-ts, basic-sass-custom-theming]
+        dir: [basic, basic-cdn, basic-ts, basic-sass-custom-theming, basic-react-router]
     steps:
       - name: Checking out Repository
         uses: actions/checkout@v1
       - name: Setup Node.js
         uses: actions/setup-node@v1
+      - name: Install Root Dependencies
+        run: yarn install
+      - name: Run Linting
+        run: yarn lint
       - name: Install Dependencies
         working-directory: ${{ matrix.dir }}
         run: yarn install
