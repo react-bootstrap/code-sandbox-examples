@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/jest": "24.9.0",
+    "@types/jest": "24.9.1",
     "@types/node": "12.12.25",
-    "@types/react": "16.9.17",
-    "@types/react-dom": "16.9.4",
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
     "bootstrap": "^4.4.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
