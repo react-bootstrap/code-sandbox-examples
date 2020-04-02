@@ -11,3 +11,5 @@ The repository for React-Bootstrap's [CodeSandbox](https://codesandbox.io/) exam
 - [Basic Example with React-Router-Bootstrap](https://codesandbox.io/s/github/react-bootstrap/code-sandbox-examples/tree/master/basic-react-router) - Just a simple create-react-app setup with React-Router-Bootstrap.
 - [Basic Example with TypeScript](https://codesandbox.io/s/github/react-bootstrap/code-sandbox-examples/tree/master/basic-ts) - Another simple create-react-app setup, this time by using TypeScript
 - [Basic Example with Sass and custom theming](https://codesandbox.io/s/github/react-bootstrap/code-sandbox-examples/tree/master/basic-sass-custom-theming) - Another simple create-react-app setup, this time by using Sass with custom theming
+- [Parcel Example](https://codesandbox.io/s/github/react-bootstrap/code-sandbox-examples/tree/master/parcel) - Just a simple Parcel setup with React-Bootstrap components.
+- [Parcel TypeScript Example](https://codesandbox.io/s/github/react-bootstrap/code-sandbox-examples/tree/master/parcel-ts) - Just a simple Parcel setup with TypeScript with React-Bootstrap components.

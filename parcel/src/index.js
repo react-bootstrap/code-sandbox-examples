@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+
+// Importing the Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Toast from 'react-bootstrap/Toast';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-
-import './App.css';
 
 const ExampleToast = ({ children }) => {
   const [show, toggleShow] = useState(true);
@@ -37,4 +39,5 @@ const App = () => (
   </Container>
 );
 
-export default App;
+var mountNode = document.getElementById("root");
+ReactDOM.render(<App />, mountNode);
