@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -39,5 +39,5 @@ const App = () => (
   </Container>
 );
 
-var mountNode = document.getElementById("root");
+var mountNode = document.getElementById('root');
 ReactDOM.render(<App />, mountNode);
