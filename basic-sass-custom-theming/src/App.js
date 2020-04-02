@@ -44,6 +44,7 @@ const App = () => (
         <a
           href="https://getbootstrap.com/docs/4.3/getting-started/theming/#importing"
           target="_blank"
+          rel="noopener noreferrer"
         >
           here
         </a>
