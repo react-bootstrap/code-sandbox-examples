@@ -1,12 +1,13 @@
 name: Test Examples
-on: [push, pull_request]
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 jobs:
-  test-example:
-    name: Test Example
+  linting:
+    name: Lint all the Examples
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        dir: [basic, basic-cdn, basic-ts, basic-sass-custom-theming, basic-react-router]
     steps:
       - name: Checking out Repository
         uses: actions/checkout@v1
@@ -16,6 +17,15 @@ jobs:
         run: yarn install
       - name: Run Linting
         run: yarn lint
+  test-example:
+    name: Test Example
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dir: [basic, basic-cdn, basic-ts, basic-sass-custom-theming, basic-react-router, parcel, parcel-ts]
+    steps:
+      - name: Checking out Repository
+        uses: actions/checkout@v1
       - name: Install Dependencies
         working-directory: ${{ matrix.dir }}
         run: yarn install
@@ -24,3 +34,6 @@ jobs:
           CI: true
         working-directory: ${{ matrix.dir }}
         run: yarn test
+      - name: Build project
+        working-directory: ${{ matrix.dir }}
+        run: yarn run build

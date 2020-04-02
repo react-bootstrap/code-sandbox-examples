@@ -1,21 +1,27 @@
 import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
+
+// Importing the Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Toast from 'react-bootstrap/Toast';
 import Container from 'react-bootstrap/Container';
-
-import './App.css';
+import Button from 'react-bootstrap/Button';
 
 const ExampleToast = ({ children }) => {
   const [show, toggleShow] = useState(true);
 
   return (
-    <Toast show={show} onClose={() => toggleShow(!show)}>
-      <Toast.Header>
-        <strong className="mr-auto">React-Bootstrap</strong>
-      </Toast.Header>
-      <Toast.Body>{children}</Toast.Body>
-    </Toast>
+    <>
+      {!show && <Button onClick={() => toggleShow(true)}>Show Toast</Button>}
+      <Toast show={show} onClose={() => toggleShow(false)}>
+        <Toast.Header>
+          <strong className="mr-auto">React-Bootstrap</strong>
+        </Toast.Header>
+        <Toast.Body>{children}</Toast.Body>
+      </Toast>
+    </>
   );
 };
 
@@ -33,4 +39,5 @@ const App = () => (
   </Container>
 );
 
-export default App;
+var mountNode = document.getElementById('root');
+ReactDOM.render(<App />, mountNode);
