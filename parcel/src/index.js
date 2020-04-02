@@ -13,7 +13,7 @@ const ExampleToast = ({ children }) => {
   const [show, toggleShow] = useState(true);
 
   return (
-    <>
+    <React.Fragment>
       {!show && <Button onClick={() => toggleShow(true)}>Show Toast</Button>}
       <Toast show={show} onClose={() => toggleShow(false)}>
         <Toast.Header>
@@ -21,7 +21,7 @@ const ExampleToast = ({ children }) => {
         </Toast.Header>
         <Toast.Body>{children}</Toast.Body>
       </Toast>
-    </>
+    </React.Fragment>
   );
 };
 
