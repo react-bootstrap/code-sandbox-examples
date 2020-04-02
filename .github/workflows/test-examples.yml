@@ -1,5 +1,9 @@
 name: Test Examples
-on: [push, pull_request]
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 jobs:
   linting:
     name: Lint all the Examples
@@ -20,6 +24,8 @@ jobs:
       matrix:
         dir: [basic, basic-cdn, basic-ts, basic-sass-custom-theming, basic-react-router, parcel, parcel-ts]
     steps:
+      - name: Checking out Repository
+        uses: actions/checkout@v1
       - name: Install Dependencies
         working-directory: ${{ matrix.dir }}
         run: yarn install
