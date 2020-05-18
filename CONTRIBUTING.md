@@ -2,7 +2,7 @@
 
 ## General
 
-This repository contains examples for [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap) in combination with different build setups which you can directly try out with CodeSandbox in your browser.
+This repository contains examples for [React-Bootstrap](https://github.com/react-bootstrap/react-bootstrap) in combination with different build setups which you can directly try out with CodeSandbox in your browser.
 
 ## Adding a new example
 
