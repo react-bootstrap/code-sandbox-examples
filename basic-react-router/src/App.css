@@ -9,3 +9,27 @@
 .custom-btn-toolbar > .btn {
   margin-right: 1rem;
 }
+
+.col {
+  padding: 1rem;
+  background-color: #33b5e5;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+}
+
+/* To try and improve chart.js responsiveness */
+.canvas-container {
+  height: 60vh;
+}
+
+.icon-opacity {
+  opacity: 0.5;
+}
+
+.breadcrumb {
+  background-color: white !important;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0 0 0.5em 0 !important;
+}
