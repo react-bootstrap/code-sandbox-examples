@@ -7,7 +7,7 @@ function Page1() {
       <h1>Page 1</h1>
       <ButtonLink to="/page2">Go to Page 1</ButtonLink>
     </Container>
-  )
+  );
 }
 
-export default Page1
+export default Page1;

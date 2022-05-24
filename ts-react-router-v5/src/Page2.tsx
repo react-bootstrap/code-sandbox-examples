@@ -9,9 +9,11 @@ function Page2() {
   return (
     <Container>
       <h1>Page 2</h1>
-      <LinkComponent to="/" variant="danger" component={ButtonLink}>Go to Page 1</LinkComponent>
+      <LinkComponent to="/" variant="danger" component={ButtonLink}>
+        Go to Page 1
+      </LinkComponent>
     </Container>
-  )
+  );
 }
 
-export default Page2
+export default Page2;

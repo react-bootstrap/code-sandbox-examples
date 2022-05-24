@@ -5,9 +5,11 @@ function Page2() {
   return (
     <Container>
       <h1>Page 2</h1>
-      <ButtonLink to="/" variant="danger">Go to Page 1</ButtonLink>
+      <ButtonLink to="/" variant="danger">
+        Go to Page 1
+      </ButtonLink>
     </Container>
-  )
+  );
 }
 
-export default Page2
+export default Page2;
