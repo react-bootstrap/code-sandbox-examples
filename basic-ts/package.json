@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@types/jest": "26.0.22",
-    "@types/node": "12.20.10",
+    "@types/node": "16.11.45",
     "@types/react": "17.0.3",
     "@types/react-dom": "17.0.3",
     "bootstrap": "^4.6.0",
