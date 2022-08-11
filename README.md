@@ -24,5 +24,5 @@ The repository for React-Bootstrap's [CodeSandbox](https://codesandbox.io/) exam
 - [Parcel Example](https://codesandbox.io/s/github/react-bootstrap/code-sandbox-examples/tree/master/parcel-v5) - Just a simple Parcel setup with React-Bootstrap components.
 - [Parcel TypeScript Example](https://codesandbox.io/s/github/react-bootstrap/code-sandbox-examples/tree/master/parcel-ts-v5) - Just a simple Parcel setup with TypeScript with React-Bootstrap components.
 - [React Router v5 Example](https://codesandbox.io/s/github/react-bootstrap/code-sandbox-examples/tree/master/ts-react-router-v5) - How to use a custom link component with React Router v5
-- [React Router v6 Example](https://codesandbox.io/s/github/react-bootstrap/code-sandbox-examples/tree/master/ts-react-router-v6) - How to use a custom link component with React Router v6
+- [React Router v6 Example](https://codesandbox.io/s/github/react-bootstrap/code-sandbox-examples/tree/master/ts-react-router-v6) - How to use a custom link component with React Router v
 
