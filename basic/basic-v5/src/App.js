@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Toast from "react-bootstrap/Toast";
-import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
+import Toast from 'react-bootstrap/Toast';
+import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
-import "./App.css";
+import './App.css';
 
 const ExampleToast = ({ children }) => {
   const [show, toggleShow] = useState(true);
@@ -25,15 +24,15 @@ const ExampleToast = ({ children }) => {
 
 const App = () => (
   <Container className="p-3">
-    <Jumbotron>
-      <h1 className="header">Welcome To Dove Market</h1>
+    <Container className="p-5 mb-4 bg-light rounded-3">
+      <h1 className="header">Welcome To React-Bootstrap</h1>
       <ExampleToast>
-        Coming Soon!
+        We now have Toasts
         <span role="img" aria-label="tada">
           🎉
         </span>
       </ExampleToast>
-    </Jumbotron>
+    </Container>
   </Container>
 );
 

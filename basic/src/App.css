@@ -1,3 +1,8 @@
+body{
+  content-align: justify;
+  align: center;
+  background-color:ivory;
+}
 .header {
   text-align: center;
 }
