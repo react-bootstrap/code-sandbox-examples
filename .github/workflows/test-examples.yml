@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checking out Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Setup Node.js
         uses: actions/setup-node@v2
       - name: Install Root Dependencies
@@ -25,7 +25,7 @@ jobs:
         dir: [basic, basic-cdn, basic-ts, basic-sass-custom-theming, basic-react-router, parcel, parcel-ts]
     steps:
       - name: Checking out Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Install Dependencies
         working-directory: ${{ matrix.dir }}
         run: yarn install
