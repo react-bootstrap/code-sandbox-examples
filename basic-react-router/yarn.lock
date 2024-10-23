@@ -8991,10 +8991,10 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
-react-bootstrap@^1.6.6:
-  version "1.6.6"
-  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-1.6.6.tgz#3f3b274f8923b9886008a0e61485b5ac9a2b3073"
-  integrity sha512-pSzYyJT5u4rc8+5myM8Vid2JG52L8AmYSkpznReH/GM4+FhLqEnxUa0+6HRTaGwjdEixQNGchwY+b3xCdYWrDA==
+react-bootstrap@^1.6.8:
+  version "1.6.8"
+  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-1.6.8.tgz#e9380d81cdb92c433f61b37a9120b8edd49912a1"
+  integrity sha512-yD6uN78XlFOkETQp6GRuVe0s5509x3XYx8PfPbirwFTYCj5/RfmSs9YZGCwkUrhZNFzj7tZPdpb+3k50mK1E4g==
   dependencies:
     "@babel/runtime" "^7.14.0"
     "@restart/context" "^2.1.4"
@@ -9092,10 +9092,10 @@ react-refresh@^0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react-router-bootstrap@^0.26.2:
-  version "0.26.2"
-  resolved "https://registry.yarnpkg.com/react-router-bootstrap/-/react-router-bootstrap-0.26.2.tgz#255ffb662b77141624d89d97105ba4f93863e664"
-  integrity sha512-YlpI9Xi+Uqp6zFAUO8D/wu6P8mr1ujqq+0V5MhJG1kx9dr/95fAMoGk4J+/CsysOkwtR3tYSac4DDWmHwXvC8w==
+react-router-bootstrap@^0.26.3:
+  version "0.26.3"
+  resolved "https://registry.yarnpkg.com/react-router-bootstrap/-/react-router-bootstrap-0.26.3.tgz#4bad61ed1e9ce4a325ca1af329a86bd0ba55789c"
+  integrity sha512-cBgcWekti6lFRl/vXP8ZfKuA/0Qe7L5xBjQ6OwbGI30+NSAAH/YZGbO6whSeBWFILn6uTVOX939HDGhs+5WzOw==
   dependencies:
     prop-types "^15.7.2"
 
