@@ -5,14 +5,14 @@
   "dependencies": {
     "@types/jest": "26.0.24",
     "@types/node": "12.20.55",
-    "@types/react": "17.0.52",
-    "@types/react-dom": "17.0.18",
+    "@types/react": "17.0.83",
+    "@types/react-dom": "17.0.25",
     "bootstrap": "^4.6.2",
     "react": "^17.0.2",
-    "react-bootstrap": "^1.6.6",
+    "react-bootstrap": "^1.6.8",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "typescript": "4.9.3"
+    "typescript": "4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
